@@ -1,0 +1,471 @@
+
+@charset "ISO-8859-1";
+/*font-family: 'Amatic SC', cursive;*/
+/*font-family: 'Roboto Mono', monospace;*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+hr{
+	background-color: #333;
+	height: 50px;
+	margin: 0px;
+}
+header{
+	position: fixed;
+	width: 100%;
+}
+
+.cabecalho{
+	background-color: #1d1d1d;
+	color: white;
+	padding: 25px;
+	
+}
+
+.cabecalho a{
+	color: white;
+	text-decoration: none;
+	
+}
+.logotipo img{
+	width: 	100px;	
+	font-size: 44px;
+    font-weight: 900;
+    color: white;
+}
+
+.banner,.login{
+	font-family: 'Roboto Mono', monospace;
+	margin-top: 25px;
+	
+}
+
+.banner{
+	font-size: 50px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+nav ul li {
+	font-size: 15px;
+    margin: 0px 10px;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.cor-menu{
+	font-size: 15px;
+	margin: 0px 10px;
+	background-color: #333;
+	padding: 15px;
+	border-radius: 5px;
+	border-color: #333;
+}
+
+.cor-menu:hover{
+	background-color: #555;
+	padding: 15px;
+	color: red;
+}
+
+.lista-ul{
+	background-color: #1d1d1d;
+}
+.lista-menu{
+	background-color: #333;
+}
+.lista-menu:hover{
+	background-color: #555;
+	color: red;
+}
+nav ul li:hover {
+    background-color: #555;
+    padding: 15px;
+}
+nav ul li:hover a {
+    color: red; 
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#secao1 {
+    background-image: url("../imagem/quarto.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#secao1Ginasio {
+    background-image: url("../imagem/ginasio4k.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#secao1Restaurantes {
+    background-image: url("../imagem/restaurante1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.texto_1 {
+    color: white;
+}
+
+.texto_1 h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    margin-top: 190px;
+    color: #1d1d1d;
+}
+
+.texto_1 h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #1d1d1d;
+}
+.botao {
+    background-color: #333;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+
+.botao:hover {
+    background-color: #555;
+}
+
+.cor_titulo1 {
+    color: red;
+}
+.secao_imagem {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.secao_imagemGina {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    
+}
+
+
+
+.secao_imagem img {
+    flex: 0 0 60%;
+    margin-right: 20px;
+    padding: 30px;
+}
+.secao_imagem10 img{
+	width: 100px;
+	height: 50px;
+}
+.secao_imagemGina img {
+    flex: 0 0 60%;
+    margin-right: 20px;
+    padding: 30px;
+}
+
+.secao_imagem1 {
+    flex: 1;
+}
+.secao_imagem1Gina {
+    flex: 1;
+}
+
+.secao_imagem1 .titulo {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 35px;
+}
+.secao_imagem1Gina .tituloG {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.secao_imagem .descricao {
+    margin: 15px 0px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.secao_imagemGina .descricaoG {
+    margin: 15px 0px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.cor_titulo2 {
+    color: red;
+}
+.cor_titulo2G {
+    color: red;
+}
+
+.botao2 {
+    text-align: center;
+}
+
+.botao_read {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 150px;
+}
+
+.botao_read:hover {
+    background-color: #c2c1c1;
+}
+
+.secao2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.secao2 div {
+    padding: 30px;
+    width: calc(33.33% - 50px);
+    text-align: center;
+   
+}
+
+.cor_diferente {
+    background-color: #BFBFBF;
+}
+
+.secao2 img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+
+.secao2 .cor_diferente img {
+    background-color: #BFBFBF;
+}
+
+.secao2 h3,
+.secao2 p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+#btn-topo {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#btn-topo:hover {
+	padding: 5px;
+    background-color: #777;
+}
+
+.bnt-top-seta{
+	padding: 8px;
+	text-decoration: none;
+}
+.rodape a{
+	text-decoration: none;
+	
+}
+
+.rodape img{
+	height: 40px;
+	border-radius: 5px ;
+	margin: 10px;
+	background-image:none
+}
+
+.tamanhofoto{
+	padding: 130px;
+	background-color: #333;
+}
+
+.welcome{
+	text-transform: uppercase;
+	font-size: 20px;
+    margin-top: 5px;
+    color: white;
+    margin-left: 10px;
+}
+.welcome::after{
+	content: '';
+	display: block;
+	width: 95px;
+	height: 0.3rem;
+	background-color: #6c63ff;
+	margin: 0 auto;
+	position: absolute;
+	border-radius: 10px;	
+}
+ 
+
+  .rounded-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  
+  }
+
+
+    
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+
+.social-icons .social-icon:hover {
+  background-color: #38bda0;
+}
+
+.profile-buttons {
+    display: flex;
+    align-items: center;
+  }
+  .restricted-area-btn a {
+    font-size: 15px;
+    margin: 0px 10px;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .restricted-area-btn a:hover {
+    background-color: #555;
+  }
+	
+  .restricted-area-btn:hover a{
+	  color: red;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  
+@media (max-width: 1700px){
+	  nav ul{
+		  flex-direction: column;
+		  list-style: none;
+    	  margin-right: 50px;
+	  }
+	  nav ul li {	
+   		  padding: 10px;
+    	
+	  }
+	  nav ul li:hover {
+    	  padding: 10px;
+	  }
+}
+
+@media (max-width: 1400px){
+	.menu-bnt{
+	  margin-left: 20px;
+  }
+	.secao_imagemGina{
+		width: 100%;
+		flex-direction: column;
+		text-align: center;
+	}
+	.secao_imagemGina img{
+		width: 100%;
+	}
+}
+@media (max-width: 600px) {
+    .secao_imagem{
+		width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+   
+    .secao2 div {
+        width: calc(50% - 40px);
+    }
+    	
+    @media (max-width: 480px) {
+        .secao2 div {
+            width: 100%;
+        }
+    }
+}
+
+
+

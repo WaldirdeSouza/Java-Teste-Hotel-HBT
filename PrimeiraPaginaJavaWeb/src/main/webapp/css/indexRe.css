@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  margin-top: 1%;
+  border-bottom: 10px;
+  padding: 10px;
+  border: none;
+}
+
+.mover {
+  text-align: center;
+  color: white;
+}
+
+.linha {
+  margin-top: 5px;
+  border-bottom: 1px solid white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+.secao_imagem {
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  color: rgb(0, 0, 0);
+  background-color: lightgray;
+  padding: 18%;
+}
+
+.inputs {
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  background-color: lightgray;
+  border-color: black;
+  width: 100%;
+  transition: height 0.3s;
+}
+
+
+
+.inputs:not(:placeholder-shown) {
+  height: 30px;
+}
+
+.inputs1 {
+  margin-left: 10px;
+  margin: 9px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.inputN{
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  background-color: lightgray;
+  border-color: black;
+  width: 100%;
+  transition: height 0.3s;
+  text-align: center;
+}
+.inputN:not(:placeholder-shown){
+	height: 30px;
+}
+.botao {
+  background-color: white;
+  color: black;
+  margin-top: 30px;
+  padding: 20px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border: none;
+  font-size: 25px;
+
+}
+
+.botao:hover {
+  background-color: #1d1d1d;
+  color: white;
+}
+
+@media (max-width: 1050px) {
+  #container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 190px;
+  }
+
+  .linha {
+    width: 90%;
+  }
+
+  .titulo {
+    padding: 40px;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  .secao_imagem {
+    padding: 20%;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .inputs1[type="radio"] {
+    /*margin: 20px 170px 0px;*/
+    width: 15px;
+    /*margin-right: auto;*/
+    flex-direction: column;
+    /* margin-left: 5px; */
+    margin-left: 15px;
+
+  }
+
+  .inputs1[type="checkbox"] {
+    /*margin: 20px 170px 0px;*/
+    width: 20px;
+    /*margin-right: auto;*/
+    flex-direction: column;
+    /* margin-left: 5px; */
+    margin-left: 15px;
+
+  }
+
+}
